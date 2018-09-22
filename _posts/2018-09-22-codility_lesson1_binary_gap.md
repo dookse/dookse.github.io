@@ -20,21 +20,21 @@ binary gap이란 2진수에서 1로 둘러싸인 0의 길이를 말한다.
 해당 메소드는 아래와 같다.
 
 {% highlight java %}
-private int getMaxLengthFrom(final String[] zeros) {
-   return stream(zeros)
-       .max(comparingInt(String::length))
-       .orElse(EMPTY)
-       .length();
-}
+    private int getMaxLengthFrom(final String[] zeros) {
+       return stream(zeros)
+           .max(comparingInt(String::length))
+           .orElse(EMPTY)
+           .length();
+    }
 {% endhighlight %}
 
 다만 이렇게 할 경우 1000 과 같은 2진수의 경우 실제 답인 0이 아닌 3으로 결과가 나오기 때문에 예외 처리가 필요하다.
 아래와 같이 2진수 값이 0으로 끝나는 경우에만 예외 처리를 해 주었다.
 
 {% highlight java %}
-if (binary.endsWith("0")) {
-    zeros[zeros.length - 1] = EMPTY;
-}
+    if (binary.endsWith("0")) {
+        zeros[zeros.length - 1] = EMPTY;
+    }
 {% endhighlight %}
 
 ## 3. 결과
@@ -43,5 +43,5 @@ Correctness 100% 로 Task Score는 100 point 되었다.
 
 
 ## 4. 코드 및 테스트 코드
-<a href="https://github.com/parksolo/algoStudy/blob/master/src/main/codility/lesson/lesson1/BinaryGap.java">BinaryGap Code</a>
-<a href="https://github.com/parksolo/algoStudy/blob/master/src/test/codility/lesson/lesson1/BinaryGapTest.java>BinaryGap Test Code</a>
+<div markdown="0"><a href="https://github.com/parksolo/algoStudy/blob/master/src/main/codility/lesson/lesson1/BinaryGap.java" class="btn btn-success">BinaryGap Code</a></div>   <div markdown="0"><a href="https://github.com/parksolo/algoStudy/blob/master/src/test/codility/lesson/lesson1/BinaryGapTest.java" class="btn btn-warning">BinaryGap Test Code</a></div>
+
