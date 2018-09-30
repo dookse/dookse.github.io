@@ -61,8 +61,7 @@ queue를 사용하면 아래와 같이 간단하게 배열 회전을 구현할 �
  
 {% highlight java %}
     private int[] getIntArrayFrom(final LinkedList<Integer> list) {
-        return list
-            .stream()
+        return list.stream()
             .filter(Objects::nonNull)
             .mapToInt(i -> i)
             .toArray();
