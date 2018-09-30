@@ -1,5 +1,5 @@
 ---
-title: "Codility lesson1 binaryGap"
+title: "Codility lesson1 : BinaryGap"
 date: 2018-09-22 18:25:00 -0900
 categories: algorithm codility
 ---
