@@ -35,18 +35,6 @@ for 문이 수행된 이후에는 Set에는 하나의 데이터만 남아있기 
 문제에서 주어진 배열의 길이가 홀수이고 빈 배열이 전달되는 경우는 없기 때문에 예외 처리는 따로 하지 않았다.
 
 {% highlight java %}
-    private LinkedList<Integer> getLinkedListFrom(final int[] intArray) {
-        return of(intArray)
-            .boxed()
-            .collect(toCollection(LinkedList::new));
-    }
-{% endhighlight %}
-
-그리고 마지막으로 회전시킨 queue를 다시 배열로 변환하는 메소드를 작성하면 된다.
-
-다만 이때 빈 배열이 주어졌을 때 NullPointerException이 발생하지 않도록 주의해야 한다.
- 
-{% highlight java %}
     return set.iterator().next();
 {% endhighlight %}
 
