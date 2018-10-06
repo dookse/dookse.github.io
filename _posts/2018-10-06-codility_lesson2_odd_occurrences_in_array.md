@@ -39,9 +39,12 @@ for 문이 수행된 이후에는 Set에는 하나의 데이터만 남아있기 
 {% endhighlight %}
 
 
+
 ## 3. 결과
 Correctness 100%,
+
 Performance 는 시간 복잡도 O(N) or O(N*log(N)) 로 감지되어 100%로
+
 Task Score는 100 point가 되었다.
 
 
