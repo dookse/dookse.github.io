@@ -21,7 +21,7 @@ Time Complexity 문제에서 가장 중요한 것은 for문을 몇번 사용하�
 
 가장 빠른 수행 시간을 가지는 알고리즘을 짜는 것이기 때문에 stream은 거의 사용되지 않는다.
 
-배열의 갯수가 많아지면 많아질수록 stream으로 sum한번 하는 시간보다 for문을 여러번 돌리는 것이 더 좋은 성능을 보장한다. 
+배열의 갯수가 많아지면 많아질수록 stream.sum() 보다 차라리 for문을 세번 수행하는 것이 훨씬 좋은 성능을 보인다.  
 
 간단하게는 왼쪽합 배열, 오른쪽 합 배열을 구한 후 왼쪽 배열에서 오른쪽 배열을 뺀 값 중 최소값을 구하면 되지만,
 
@@ -30,7 +30,7 @@ Time Complexity 문제에서 가장 중요한 것은 for문을 몇번 사용하�
 
 {% highlight java %}
     int sum = getSum(a),
-        min = Integer.MAX_VALUE;
+        min = MAX_VALUE;
     
     for (int i = 1; i < a.length; i++) {
         sum -= a[i - 1] * 2;
