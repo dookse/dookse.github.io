@@ -75,14 +75,14 @@ Task Score : 100 point
     <a href="https://github.com/parksolo/algoStudy/blob/master/src/main/codility/lesson/lesson4/PermCheck.java"
        class="btn btn-success" 
        target="_blank">
-       TapeEquilibrium Code
+       PermCheck Code
     </a>
 </div>   
 <div markdown="0">
     <a href="https://github.com/parksolo/algoStudy/blob/master/src/test/codility/lesson/lesson4/PermCheck.java"
        class="btn btn-warning" 
        target="_blank">
-       TapeEquilibrium Test Code
+       PermCheck Test Code
     </a>
 </div>
 
