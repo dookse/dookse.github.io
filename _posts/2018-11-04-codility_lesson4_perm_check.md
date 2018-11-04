@@ -79,7 +79,7 @@ Task Score : 100 point
     </a>
 </div>   
 <div markdown="0">
-    <a href="https://github.com/parksolo/algoStudy/blob/master/src/test/codility/lesson/lesson4/PermCheck.java"
+    <a href="https://github.com/parksolo/algoStudy/blob/master/src/test/codility/lesson/lesson4/PermCheckTest.java"
        class="btn btn-warning" 
        target="_blank">
        PermCheck Test Code
