@@ -12,13 +12,13 @@ categories: algorithm codility
 
 아래와 같은 배열이 있고 X가 5라면, 답은 6이 된다.
 
-  A[0] = 1
-  A[1] = 3
-  A[2] = 1
-  A[3] = 4
-  A[4] = 2
-  A[5] = 3
-  A[6] = 5
+  A[0] = 1,
+  A[1] = 3,
+  A[2] = 1,
+  A[3] = 4,
+  A[4] = 2,
+  A[5] = 3,
+  A[6] = 5,
   A[7] = 4
 
 ## 2. 풀이
@@ -45,14 +45,14 @@ step을 하나씩 줄여나가는 방식으로 진행한다.
 {% endhighlight %}
 
 {% highlight java %}
-    private void initSteps(int x) {
+    private void initSteps(final int x) {
         set = new HashSet<>();
         steps = x;
     }
 {% endhighlight %}
 
 {% highlight java %}
-    private void goNextStep(int num) {
+    private void goNextStep(final int num) {
         if (set.add(num)) {
             steps--;
         }
