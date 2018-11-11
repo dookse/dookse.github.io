@@ -2,6 +2,7 @@
 title: "Codility lesson4 : PermCheck"
 date: 2018-11-04 13:10:55 +0900
 categories: algorithm codility
+comments: true
 ---
 
 ## 1. 문제
