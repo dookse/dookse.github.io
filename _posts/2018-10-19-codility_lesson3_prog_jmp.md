@@ -2,6 +2,7 @@
 title: "Codility lesson3 : ProgJmp"
 date: 2018-10-19 12:21:55 +0900
 categories: algorithm codility
+comments: true
 ---
 
 ## 1. 문제

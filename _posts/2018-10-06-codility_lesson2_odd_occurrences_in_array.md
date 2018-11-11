@@ -2,6 +2,7 @@
 title: "Codility lesson2 : OddOccurrencesInArray"
 date: 2018-10-06 08:47:00 +0900
 categories: algorithm codility
+comments: true
 ---
 
 ## 1. 문제

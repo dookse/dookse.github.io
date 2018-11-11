@@ -2,6 +2,7 @@
 title: "Codility lesson4 : FrogRiverOne"
 date: 2018-11-10 19:35:55 +0900
 categories: algorithm codility
+comments: true
 ---
 
 ## 1. 문제

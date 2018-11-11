@@ -2,6 +2,7 @@
 title: "Codility lesson3 : PermMissingElem"
 date: 2018-10-14 12:20:00 +0900
 categories: algorithm codility
+comments: true
 ---
 
 ## 1. 문제

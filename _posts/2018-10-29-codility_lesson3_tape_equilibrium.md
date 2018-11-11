@@ -2,6 +2,7 @@
 title: "Codility lesson3 : TapeEquilibrium"
 date: 2018-10-29 20:35:55 +0900
 categories: algorithm codility
+comments: true
 ---
 
 ## 1. 문제

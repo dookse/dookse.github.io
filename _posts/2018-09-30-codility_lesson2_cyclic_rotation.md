@@ -2,6 +2,7 @@
 title: "Codility lesson2 : CyclicRotation"
 date: 2018-09-30 22:00:00 -0900
 categories: algorithm codility
+comments: true
 ---
 
 ## 1. 문제
