@@ -27,7 +27,7 @@ sass:
   style:            compressed
 
 # Comments
-disqus_shortname:   taylantatli
+disqus_shortname:   parksolo github.io
 
 # Social
 # if you don't have any of social below, comment the line.
@@ -75,4 +75,4 @@ jekyll-mentions:
 
 # Exclude list
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
-remote_theme : TaylanTatli/Moon
+remote_theme : parksolo/Moon
