@@ -15,7 +15,9 @@ max counter − 모든 카운터를 최대값으로 설정한다.
 
 배열 값이 N + 1 일 경우는 max counter, 그 외의 경우에는 increase를 수행하면 된다. 
 
-(문제에는 1 ≤ X ≤ N 일 경우 incrase라고 되어 있지만, 배열의 범위값이 1..N + 1 이기 때문에 X 가 N + 1 인지 아닌지만 체크하면 된다.) 
+(문제에는 1 ≤ X ≤ N 일 경우 incrase라고 되어 있지만, 배열의 범위값이 1..N + 1 이기 때문에 
+
+X 가 N + 1 인지 아닌지만 체크하면 된다.) 
 
 ## 2. 풀이
 
@@ -39,7 +41,7 @@ max counter − 모든 카운터를 최대값으로 설정한다.
 
 기본적인 프로세스는 max counter 일 때는 값만 저장하고, increase 일 때는 maxCount 값과 비교 후 1 증가시킨다. 
 
-마지막 maxCounterIndex를 구해서 실제 max counter처리는 해당 index에서만 수행한다. 
+마지막 max counter를 수행할 index를 구해서 해당 index에서만 max counter 처리를 수행한다. 
 
 코드를 분리하다 보니 엄청나게 길어져 버렸는데, lastCounterIndex 구하는 부분 로직이 좀 아쉽다.
 
@@ -55,14 +57,14 @@ increase 및 max counter 코드는 아래와 같다.
 {% endhighlight %}
 
 {% highlight java %}
-    private void maxCounter(final int[] ans, final int idx) {
-        if (lastCounterIndex == idx) {
-         for (int i = 0; i < ans.length; i++) {
-             ans[i] = currentMaxValue;
-         }
+private void maxCounter(final int[] ans, final int idx) {
+    if (lastCounterIndex == idx) {
+        for (int i = 0; i < ans.length; i++) {
+            ans[i] = currentMaxValue;
         }
-        maxCount = currentMaxValue;
     }
+    maxCount = currentMaxValue;
+}
 {% endhighlight %}
 
 
