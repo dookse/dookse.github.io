@@ -1,5 +1,5 @@
 ---
-title: "Codility lesson4 : MissingInteger"
+title: "Codility lesson5 : PassingCars"
 date: 2018-11-25 17:28:00 +0900
 categories: algorithm codility
 comments: true
@@ -57,7 +57,7 @@ Task Score : 100 point
     <a href="https://github.com/parksolo/algoStudy/blob/master/src/main/codility/lesson/lesson5/PassingCars.java"
        class="btn btn-success" 
        target="_blank">
-       MissingInteger Code
+       PassingCars Code
     </a>
 </div>   
 
