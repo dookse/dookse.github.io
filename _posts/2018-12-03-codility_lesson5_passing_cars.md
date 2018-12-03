@@ -31,7 +31,7 @@ comments: true
     for (final int car : a) {
         if (car == WEST) {
             passingCounts += eastCars;
-            if (countExceedLimit(passingCounts)) {
+            if (passingCounts > LIMIT_COUNT) {
                 return -1;
             }
         } else if (car == EAST) {
